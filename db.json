@@ -44,7 +44,7 @@
                 "url": "#"
             }
         },
-        "submenu": {
+        "sub_menu": {
             "question": "How can we help?",
             "links": [
                 {
@@ -93,13 +93,43 @@
             "phone": "555.555.5555",
             "contact_form": {
                 "url": "#",
-                "text": "Or send us an email using our contact form."
+                "link_text": "contact form",
+                "text": "Or send us an email using our"
             },
             "address": "1234 Address, SPringfield, MO 65806",
             "directions": {
                 "url": "#",
-                "text": "Get directions"
-            }
+                "link_text": "Get directions",
+                "text": "to our office."
+            },
+            "social_media": [
+                {"url": "#", "icon": "Facebook"},
+                {"url": "#", "icon": "Twitter"},
+                {"url": "#", "icon": "YouTube"}
+            ]
+        },
+        "copyright": {
+            "symbol": "&copy;",
+            "text": "Pretend Company Consulting Group. All Rights Reserved.",
+            "link": [
+                {
+                    "url": "#",
+                    "text": "Privacy Policy"
+                },
+                {
+                    "url": "#",
+                    "text": "Terms & Conditions"
+                },
+                {
+                    "url": "#",
+                    "text": "Careers"
+                },
+                {
+                    "url": "#",
+                    "link_text": "Mostly Serious",
+                    "text": "Website crafted by"
+                }
+            ]
         }
     }
 }
